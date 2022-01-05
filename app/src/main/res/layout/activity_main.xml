@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/sale"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/b_open_browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Browser"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/b_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Share"/>
+    <Button
+        android:id="@+id/b_send_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Send Email"/>
+
+
+</FrameLayout>
